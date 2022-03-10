@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Misinformed By Visualization - Inconsistent Grouping</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Misinformed By Visualization</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Stage-3-Plotting.html">Stage 3: Plotting</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Stage-3-Plotting-Inconsistency.html">Inconsistency</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Stage-3-Plotting-Inconsistency-Inconsistent-Grouping.html">Inconsistent Grouping</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+    </ul>
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+        
+          <li data-src="media/large/Stage%203:%20Plotting/Inconsistency/Inconsistent%20Grouping/001611_eb9e966bda610924_inconsistent%20grouping.png"
+              data-sub-html=""
+              data-download-url="media/original/Stage%203:%20Plotting/Inconsistency/Inconsistent%20Grouping/001611_eb9e966bda610924_inconsistent%20grouping.png"
+              
+              data-filename="001611_eb9e966bda610924_inconsistent grouping.png"
+        
+            >
+            <a href="media/original/Stage%203:%20Plotting/Inconsistency/Inconsistent%20Grouping/001611_eb9e966bda610924_inconsistent%20grouping.png">
+              <img src="media/thumbs/Stage%203:%20Plotting/Inconsistency/Inconsistent%20Grouping/001611_eb9e966bda610924_inconsistent%20grouping.png"
+                   width="120"
+                   height="120"
+                   alt="001611_eb9e966bda610924_inconsistent grouping.png" />
+            </a>
+          </li></ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>All rights belong to respective owners of the images.</p>
+    </footer>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>

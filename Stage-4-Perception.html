@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Misinformed By Visualization - Stage 4: Perception</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Misinformed By Visualization</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Stage-4-Perception.html">Stage 4: Perception</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Stage-4-Perception-Visual-Illusion.html">
+         <h3>Visual Illusion</h3>
+         <div class="meta">
+           9 albums, 198 photos<br />
+           07 Mar 2020 - 10 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Stage%204:%20Perception/Visual%20Illusion/3D/000006_e2621ce76397858d_3d.gif" /></li><li><img src="media/thumbs/Stage%204:%20Perception/Visual%20Illusion/3D/000095_f861c79c9e4e9819_3d.png" /></li><li><img src="media/thumbs/Stage%204:%20Perception/Visual%20Illusion/3D/000137_e84aad3d8f3e820b_3d-misrepresentation.png" /></li><li><img src="media/thumbs/Stage%204:%20Perception/Visual%20Illusion/3D/000145_abd195ce8e6e6061_3d.jpg" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>All rights belong to respective owners of the images.</p>
+    </footer>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>

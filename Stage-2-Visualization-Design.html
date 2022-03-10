@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Misinformed By Visualization - Stage 2: Visualization Design</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Misinformed By Visualization</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Stage-2-Visualization-Design.html">Stage 2: Visualization Design</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Stage-2-Visualization-Design-Choice-of-Axis.html">
+         <h3>Choice of Axis</h3>
+         <div class="meta">
+           8 albums, 324 photos<br />
+           31 Jul 2012 - 10 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Axis/Data%20of%20Different%20Magnitudes/000266_da952d4a364d9b70_data%20of%20different%20magnitudes.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Axis/Data%20of%20Different%20Magnitudes/000419_a02d352d2d1bd6d6_data%20of%20different%20magnitudes.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Axis/Data%20of%20Different%20Magnitudes/002150_9f08364976687f58_data%20of%20different%20magnitudes.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Axis/Data%20of%20Different%20Magnitudes/004445_abcb3734043b622f_data%20of%20different%20magnitudes.png" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Stage-2-Visualization-Design-Choice-of-Chart.html">
+         <h3>Choice of Chart</h3>
+         <div class="meta">
+           7 albums, 71 photos<br />
+           07 Oct 2019 - 10 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Chart/Confusing%20Chart%20Type/000206_bb72d697e580a0c9_confusing%20chart%20type.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Chart/Confusing%20Chart%20Type/000380_fe81c30c3673ccc3_confusing%20chart%20type.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Chart/Confusing%20Chart%20Type/000618_af34bc3332733033_confusing%20chart%20type.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Choice%20of%20Chart/Confusing%20Chart%20Type/000743_b22cc9c0ccd88fcf_confusing%20chart%20type-inappropriate%20use%20of%20smoothing.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Stage-2-Visualization-Design-Color-Mess.html">
+         <h3>Color Mess</h3>
+         <div class="meta">
+           3 albums, 64 photos<br />
+           10 Mar 2022 - 10 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Color%20Mess/Color%20Blind%20Unfriendly/002317_bbc0c82ec63fc338_color%20blind%20unfriendly.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Color%20Mess/Indistinguishable%20Colors/000199_b2cbc92ccd322e33_indistinguishable%20colors.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Color%20Mess/Indistinguishable%20Colors/000240_aab52f2f912ed031_overplotting-indistinguishable%20colors-missing%20legend.jpg" /></li><li><img src="media/thumbs/Stage%202:%20Visualization%20Design/Color%20Mess/Indistinguishable%20Colors/000264_f08a8f7c38d344ce_indistinguishable%20colors.jpg" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>All rights belong to respective owners of the images.</p>
+    </footer>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
